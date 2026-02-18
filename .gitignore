@@ -1,0 +1,19 @@
+# Android/Kotlin GitIgnore
+
+# Gradle
+.gradle
+build/
+app/build/
+
+# IDEs (Android Studio, IntelliJ)
+.idea/
+*.iml
+.DS_Store
+
+# Android-specific
+local.properties
+.externalNativeBuild
+.cxx
+
+# Secrets
+.env
